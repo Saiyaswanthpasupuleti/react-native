@@ -1,9 +1,15 @@
 import React from 'react'
-import PokemonCards from './PokemonCards'
+
+import FlatLists from './RN-List/FlatList'
+import SectionLists from './RN-List/SectionList'
+// import PokemonCards from './PokemonCards'
+// import DefaultList from './RN-List/DefaultList'
 export default function App() {
   return (
-    <PokemonCards/>
-    
+    // <PokemonCards/>
+    // <DefaultList/>
+    // <FlatLists/>
+    <SectionLists/>
     
   )
 }
